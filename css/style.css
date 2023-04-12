@@ -39,7 +39,7 @@ footer{
     
 }
 .conteudo-topo{
-    padding-top: 7rem;
+    padding-top: 10rem;
 }
 h1{
     font-size: 2.5rem;
@@ -85,7 +85,7 @@ figure{
     z-index: 1;
     position: fixed;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 6rem;
 
 }
 
@@ -110,4 +110,49 @@ figure{
 
 #formulario{
     background-color: orangered;
+}
+
+input{
+    border: solid;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.8rem;
+
+}
+
+#mensagem{
+    border: solid;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    
+}
+
+#btn_limpar{
+    background-color: aqua;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#btn_enviar{
+    background-color: #008000;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+nav{
+    text-align: right;
+    font-size: 1.6rem;
+    word-spacing: 10px;
+    margin-right: 5% ;
+    padding-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
 }

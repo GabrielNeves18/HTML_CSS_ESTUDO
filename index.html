@@ -9,6 +9,13 @@
 
     <body>
         <header>
+            <!--Criando uma barra de navegação-->
+            <nav>
+                <!--Criação do links -->
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </nav>
             <h3>GN TECH</h3>
             <h4>Desenvolvimento Web</h4>
         </header>
@@ -95,7 +102,40 @@
             <br>
 
             <form>
+                <label for="nome">Nome</label><br>
                 <input type="text" name="nome" placeholder="Digite o seu nome" >
+                <br>
+
+                <label for="telefone">Telefone</label><br>
+                <input type="tel" id="tel" name="tel" placeholder="Digite o seu cell com DDD">
+                <br>
+                <br>
+
+                <!-- Criando um checkbox -->
+                <input type="checkbox" id="opcoes" name="html" value="html">
+                <label for="html">Conhecer mais sobre HTML e CSS</label> 
+                <br><br>
+
+                <input type="checkbox" id="opcoes" name="php" value="php">
+                <label for="php">Conhecer mais sobre PHP</label>
+                <br><br>
+
+                <input type="checkbox" id="opcoes" name="javascript" value="javascript">
+                <label for="javascript">Conhcer mais sobre Javascript</label>
+                <br><br>
+                <!-- Fechando o checkbox -->
+                
+                <!--Criando um espaço de mensagem-->
+                <label for="mensagem">Deixe sua mensagem (opcional)</label>
+                <br><br>
+                <textarea name="mensagem" id="mensagem" cols="25" rows="5"></textarea>
+                <br><br>
+                <!-- Fechando o espaço de mensagem -->
+
+                <!-- Criando botões -->
+                <button id="btn_limpar" type="reset" value="LIMPAR">LIMPAR</button>&nbsp;
+                <button id="btn_enviar" type="submit" value="ENVIAR">ENVIAR</button>
+                <!-- Fechando botões -->
             </form>
 
         </section>
