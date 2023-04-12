@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html{
+    font-family: arial;
+    font-size: 62.5%;
+    
+}
+
+header{
+    background-color: firebrick;
+    
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    position: fixed;
+    width: 100%;
+}
+nav{
+    text-align: right;
+    margin-right: 5%;
+    
+    
+}
+a{
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover{
+    border: solid yellow;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+
+}
