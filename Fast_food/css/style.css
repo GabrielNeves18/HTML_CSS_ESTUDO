@@ -8,6 +8,7 @@
 html{
     font-family: arial;
     font-size: 62.5%;
+    scroll-behavior: s;
     
 }
 
@@ -24,8 +25,10 @@ header, footer{
 }
 
 footer{
+    position: fixed;
     text-align: center;
     color: #000;
+    z-index: 2;
 }
 
 #nome_empresa{
@@ -61,7 +64,7 @@ a:hover{
 
 /*Configurando o site */
 .conteudo-topo{
-    padding-top: 30rem;
+    padding-top: 20rem;
     
 }
 
@@ -95,6 +98,7 @@ h3{
 
 #grid-conteudo{
     background-color: #fff;
+    padding-top: 20rem;
 }
 
 .grid{
@@ -171,7 +175,7 @@ h3{
         right: 0;
         position: fixed;
         text-align: center;
-        margin-top: 20rem;
+        margin-top: 25rem;
         z-index: 1;
         border-radius: 20px;
         border: solid rgb(0,255,0);
