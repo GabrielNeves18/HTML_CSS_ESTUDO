@@ -8,7 +8,7 @@
 html{
     font-family: arial;
     font-size: 62.5%;
-    scroll-behavior: s;
+    scroll-behavior: smooth;
     
 }
 
@@ -25,10 +25,8 @@ header, footer{
 }
 
 footer{
-    position: fixed;
     text-align: center;
     color: #000;
-    z-index: 2;
 }
 
 #nome_empresa{
@@ -74,8 +72,7 @@ a:hover{
     padding: 1.5rem;
     text-align: justify;
     margin: 0 auto;
-    max-width: 95%;
-    max-height: 95%;
+    max-width: 1024px;
 }
 
 h1{
