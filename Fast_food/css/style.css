@@ -4,14 +4,16 @@
     border: 0;
 }
 
+
 html{
     font-family: arial;
     font-size: 62.5%;
     
 }
 
-header{
-    background-color: firebrick;
+/*Configuração do header e footer*/
+header, footer{
+    background: linear-gradient(to top, #fff, #ff0000);
     
     color: #fff;
     font-size: 1.8rem;
@@ -20,15 +22,30 @@ header{
     position: fixed;
     width: 100%;
 }
+
+footer{
+    text-align: center;
+    color: #000;
+}
+
+#nome_empresa{
+    color: #000;
+}
 nav{
     text-align: right;
     margin-right: 5%;
     
     
 }
+figure{
+    text-align: center;
+}
 a{
-    color: yellow;
+    color: white;
     text-decoration: none;
+    text-shadow: 2px 2px 3px #000;
+    font-weight: bold;
+
 }
 
 a:hover{
@@ -36,5 +53,131 @@ a:hover{
     border-radius: 10px;
     color: #fff;
     padding: 10px;
+    text-shadow: 2px 2px 3px #000;
 
 }
+/*Finalizando configuração do header e footer*/
+
+
+/*Configurando o site */
+.conteudo-topo{
+    padding-top: 30rem;
+    
+}
+
+.conteudo{
+    font-size: 1.6rem;
+    background-color: #fff;
+    padding: 1.5rem;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 95%;
+    max-height: 95%;
+}
+
+h1{
+    font-size: 2.6rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000;
+    color: #ff0000;
+}
+
+h2{
+    font-size: 1.6rem;
+}
+
+h3{
+    font-size: 3rem;
+    color: #ff0000;
+    text-shadow: 1px 1px 2px #000;
+    text-align: center;
+}
+
+#grid-conteudo{
+    background-color: #fff;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.grid div{
+    text-align: center;
+    padding: 1rem;
+}
+
+.imagem-site{
+    border-radius: 10px 10px 10px 10px;
+    width: 70%;
+    height: 50%;
+    border: solid;
+}
+
+@media(min-width: 280px) and (max-width: 1024px){
+    .imagem-site{
+        border-radius: 10px 10px 10px 10px;
+        width: 90%;
+        height: 70%;
+    }
+}
+
+#Pedido{
+    color: yellow;
+    font-size: 2rem;
+
+}
+
+#Pedido:hover{
+    color: #fff;
+    background-color: rgb(255,0,0);
+    border: none;
+    border-radius: 0;
+    padding: 5px; 
+    border-radius: 10px;
+}
+
+#compras{
+    background-color: rgba(255,215,0, 0.75);
+    width: 300px;
+    height: 100px;
+    right: 0;
+    position: fixed;
+    text-align: center;
+    margin-top: 20rem;
+    z-index: 1;
+    border-radius: 20px;
+    border: solid rgb(0,255,0);
+}
+
+#btn-compras{
+    background-color: rgba(50,215,40, 0.75);
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    border: solid #fff;
+    border-radius: 20px;
+}
+
+
+@media(min-width: 280px) and (max-width: 1024px){
+    #compras{
+        background-color: rgba(255,215,0, 0.75);
+        width: 160px;
+        height: 100px;
+        right: 0;
+        position: fixed;
+        text-align: center;
+        margin-top: 20rem;
+        z-index: 1;
+        border-radius: 20px;
+        border: solid rgb(0,255,0);
+        padding-top: 5px;
+    }
+
+}
+/*finalizando a configuração do site */
+
